@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MetaData xmlns="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="en_us">
+   <OCD id="org.eclipse.kura.wire.Test"
+         name="Test" 
+         description="This is a test component. It compares two consecutive envelopes and emit a message if they have different values">
+              
+        
+        
+        </OCD>
+    
+    <Designate pid="org.eclipse.kura.wire.Test" factoryPid="org.eclipse.kura.wire.Test">
+        <Object ocdref="org.eclipse.kura.wire.Test"/>
+    </Designate>
+    
+</MetaData>
